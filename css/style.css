@@ -1,0 +1,186 @@
+a {
+    text-decoration: none;
+    border: 2px solid #000;
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.container_inline_block {
+    width: 1200px;
+    margin: 0 auto;
+}
+.first_block, .second_block, .third_block {
+    font-size: 0;
+}
+.first_block {
+    background: #F6FFD4;
+}
+.first_block>div {
+    width: 400px;
+    height: 400px;
+    outline: 1px solid rgb(96, 96, 96);
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/*second block*/
+.second_block {
+    background: #DAFBF7;
+}
+.second_block>.second_left_block {
+    display: inline-block;
+    width: 800px;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+.second_left_block>div {
+    height: 200px;
+    outline: 1px solid rgb(96, 96, 96);
+    text-align: center;
+}
+.second_block>.second_left_block+.second_right_block {
+    width: 400px;
+    font-size: 20px;
+    display: inline-block;
+}
+.second_right_block>div {
+    height: 133.33px;
+    outline: 1px solid rgb(96, 96, 96);
+    text-align: center;
+}
+
+
+/*third block*/
+.third_block {
+    background: #F9E6F9;
+}
+.third_block>.third_left_block {
+    width: 400px;
+    height: 400px;
+    outline: 1px solid rgb(96, 96, 96);
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.third_block>.third_right_block {
+    width: 800px;
+    outline: 1px solid rgb(96, 96, 96);
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.third_right_block>.top {
+    height: 200px;
+    outline: 1px solid rgb(96, 96, 96);
+    display: inline-block;
+}
+.third_right_block>.bottom {
+   width: 800px;
+   font-size: 0;
+}
+
+.bottom>.bottom_left_block {
+    width: 400px;
+    height: 200px;
+    outline: 1px solid rgb(96, 96, 96);
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bottom>.bottom_left_block+.bottom_right_block {
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+}
+.bottom_right_block>div {
+    height: 100px;
+    outline: 1px solid rgb(96, 96, 96);
+}
+
+
+
+
+
+/*FLOAT*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.first_section {
+    background: #F6FFD4;
+}
+.first_section>div {
+    outline: 2px solid green;
+}
+.first_section_child {
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+.clr {
+    clear: both;
+}
+
+.second_section {
+    background: #DAFBF7;
+}
+.second_left_section {
+    float: left;
+}
+.second_left_section>div {
+    width: 800px;
+    height: 200px;
+    outline: 2px solid green;
+}
+.second_right_section>div {
+    outline: 2px solid green;
+}
+.section_right_section_child {
+    float: left;
+    width: 400px;
+    height: 133.33px;
+}
+
+.third_section {
+    background: #F9E6F9;
+}
+.third_left_section {
+    float: left;
+    width: 400px;
+    height: 400px;
+    outline: 2px solid green;
+}
+.third_right_section {
+    float: left;
+}
+.third_right_section>div {
+    width: 800px;
+    outline: 2px solid green;
+}
+.top_section {
+    height: 200px;
+}
+.bottom_section {
+   float: left;
+}
+.bottom_section>div {
+    width: 400px;
+    outline: 2px solid green;
+}
+.bottom_left_section {
+    height: 200px;
+    float: left;
+}
+.bottom_right_section {
+    float: left;
+}
+.bottom_right_section_child {
+    width: 400px;
+    height: 100px;
+    outline: 2px solid green;
+}
