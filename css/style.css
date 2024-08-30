@@ -4,6 +4,7 @@ a {
     background: #000;
     color: #fff;
     border-radius: 12px;
+    display: inline-block;
     padding: 5px;
 }
 
@@ -137,12 +138,14 @@ a {
     height: 200px;
     outline: 2px solid green;
 }
+.second_right_section {
+    float: left;
+    width: 400px;
+}
 .second_right_section>div {
     outline: 2px solid green;
 }
 .section_right_section_child {
-    float: left;
-    width: 400px;
     height: 133.33px;
 }
 
@@ -165,9 +168,6 @@ a {
 .top_section {
     height: 200px;
 }
-.bottom_section {
-   float: left;
-}
 .bottom_section>div {
     width: 400px;
     outline: 2px solid green;
@@ -180,7 +180,6 @@ a {
     float: left;
 }
 .bottom_right_section_child {
-    width: 400px;
     height: 100px;
     outline: 2px solid green;
 }
